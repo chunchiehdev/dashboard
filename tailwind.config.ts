@@ -17,6 +17,12 @@ const config: Config = {
           500: '#0070F3',
           600: '#2F6FEB',
         },
+        'rich-black': '#04151fff',
+        'dark-slate-gray': '#183a37ff',
+        wheat: '#efd6acff',
+        mahogany: '#c44900ff',
+        'dark-purple': '#432534ff',
+        'slate-gray': '#6f8695ff',
       },
     },
     keyframes: {

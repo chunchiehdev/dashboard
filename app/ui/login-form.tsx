@@ -14,7 +14,7 @@ import { authenticate } from '@/app/lib/actions';
 export default function LoginForm() {
   const [errorMessage, formAction, isPending] = useActionState(
     authenticate,
-    undefined,
+    undefined
   );
 
   return (
@@ -64,7 +64,10 @@ export default function LoginForm() {
             </div>
           </div>
         </div>
-        <Button className="mt-4 w-full" aria-disabled={isPending}>
+        <Button
+          className="mt-4 w-full bg-dark-slate-gray"
+          aria-disabled={isPending}
+        >
           Log in <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
         </Button>
         <div className="flex h-8 items-end space-x-1">
